@@ -11,7 +11,7 @@
 
 while True:
     try:
-        salario = float(input("Digite o salário: "))
+        salario = float(input())
         break
     except ValueError:
         print("Entrada inválida! Por favor, digite apenas números reais.")
@@ -19,7 +19,7 @@ while True:
 
 while True:
     try:
-        horas = int(input("Digite o número de horas: "))
+        horas = int(input())
         break
     except ValueError:
         print("Entrada inválida! Por favor, digite apenas números inteiros.")
@@ -31,7 +31,7 @@ sindical = salario_bruto * 0.05
 salario_liquido = salario_bruto - ( inss + sindical )
 
 
-print(salario_bruto)
-print(inss)
-print(sindical)
-print(salario_liquido)
+print(f"{salario_bruto:.2f}")
+print(f"{inss:.2f}")
+print(f"{sindical:.2f}")
+print(f"{salario_liquido:.2f}")
