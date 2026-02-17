@@ -1,2 +1,2 @@
 # AlgoritmosEProgramacaoI
-Disciplina de algoritmos e programação I no Mackenzie ADS EAD 2026
+Disciplina de algoritmos e programação I no Mackenzie ADS 2026
